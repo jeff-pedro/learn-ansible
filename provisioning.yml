@@ -21,3 +21,11 @@
       state: latest
       update_cache: yes
     become: yes
+
+  - name: Create the installation directory
+    ansible.builtin.file:
+      path: /srv/www
+      state: directory
+      owner: www-data
+      mode: '0755'
+    become: yes
