@@ -1,2 +1,2 @@
-# learn-ansible
-Repositório usado para explorar o Ansible.
+# Learning Ansible
+Repository used to explore the Ansible.
