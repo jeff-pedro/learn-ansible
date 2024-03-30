@@ -1,2 +1,2 @@
 [wordpress]
-172.31.15.20 ansible_user=ubuntu ansible_ssh_private_key_file='/home/ubuntu/ansible/key'
+3.227.9.33 ansible_user=ubuntu ansible_ssh_private_key_file='/home/jefferson/.ssh/ansible.pem'

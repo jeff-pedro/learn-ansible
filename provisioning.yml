@@ -29,3 +29,10 @@
       owner: www-data
       mode: '0755'
     become: yes
+
+  - name: Download and Unarchive a wordpress file
+    ansible.builtin.unarchive:
+      src: https://wordpress.org/latest.tar.gz
+      dest: /srv/www
+      remote_src: yes
+    become: yes
