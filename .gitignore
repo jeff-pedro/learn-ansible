@@ -1,2 +1,5 @@
-key*
 .vscode
+ansible.pem
+ansible.pub
+.terraform*
+terraform.tfstate*
